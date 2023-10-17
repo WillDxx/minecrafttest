@@ -1,0 +1,8 @@
+setIcon(<advancedrocketry:rocketbuilder>)
+setTitle("To the space")
+setDescription("Zcraftuj Rocket Assembling Machine")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-478,-1)
+hideLines()
+criteria = addCriteria("rocket_build", "triumph:player_crafted_item")
+criteria.setItem(<advancedrocketry:rocketbuilder>)

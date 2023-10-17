@@ -1,0 +1,8 @@
+setIcon(<actuallyadditions:block_atomic_reconstructor>)
+setTitle("Actually Additions")
+setDescription("Zcraftuj Atomic Reconstructor")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-424,53)
+hideLines()
+criteria = addCriteria("atomic_reconstructor", "triumph:player_crafted_item")
+criteria.setItem(<actuallyadditions:block_atomic_reconstructor>)

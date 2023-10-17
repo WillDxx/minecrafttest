@@ -1,0 +1,8 @@
+setIcon(<draconicevolution:reactor_core>)
+setTitle("Draconic Reactor")
+setDescription("Zcraftuj i postaw Draconic Reactor Core")
+addParent("triumph:mistrzownia/chaos_guardian")
+setPos(-150,67)
+hideLines(false)
+criteria = addCriteria("Draconic Reactor", "minecraft:placed_block")
+criteria.setBlock(<draconicevolution:reactor_core>)

@@ -1,0 +1,8 @@
+setIcon(<thermalexpansion:cell>)
+setTitle("Banki Energii")
+setDescription("Zcraftuj Enegy cell z Thermal Expansion")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-451,53)
+hideLines()
+criteria = addCriteria("thermal_cell", "triumph:player_crafted_item")
+criteria.setItem(<thermalexpansion:cell>)

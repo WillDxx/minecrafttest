@@ -1,0 +1,8 @@
+setIcon(<tconstruct:toolforge>)
+setTitle("Tool Forge")
+setDescription("Zcraftuj Tool Forge")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-559,-1)
+hideLines()
+criteria = addCriteria("tool_forge", "triumph:player_crafted_item")
+criteria.setItem(<tconstruct:toolforge>)

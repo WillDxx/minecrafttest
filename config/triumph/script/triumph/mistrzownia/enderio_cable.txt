@@ -1,0 +1,8 @@
+setIcon(<enderio:item_power_conduit:2>)
+setTitle("Ender Energy Conduict")
+setDescription("Zcraftuj Ender Energy Conduict")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-505,-1)
+hideLines()
+criteria = addCriteria("enderio_cable", "triumph:player_crafted_item")
+criteria.setItem(<enderio:item_power_conduit:2>)

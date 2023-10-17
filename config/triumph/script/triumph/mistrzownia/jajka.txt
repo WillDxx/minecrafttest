@@ -1,0 +1,13 @@
+setIcon(<minecraft:egg>)
+setTitle("Czy ktoś chciał jajecznice?")
+setDescription("JAJA!")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-532,-117)
+setFrameType("challenge")
+hideLines()
+criteria = addCriteria("JjaAKa", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:egg>)
+criteria.setCount(1000)
+
+
+setHidden(true)

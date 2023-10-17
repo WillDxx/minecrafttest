@@ -1,0 +1,8 @@
+setIcon(<appliedenergistics2:controller>)
+setTitle("Autocrafting")
+setDescription("Zcraftuj ME Controller")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-478,26)
+hideLines()
+criteria = addCriteria("applied", "triumph:player_crafted_item")
+criteria.setItem(<appliedenergistics2:controller>)

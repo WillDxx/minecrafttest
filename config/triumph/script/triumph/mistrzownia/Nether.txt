@@ -1,0 +1,8 @@
+setIcon(<minecraft:netherrack>)
+setTitle("Nether!")
+setDescription("Wejdź do netheru")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-285,-117)
+hideLines()
+criteria = addCriteria("nether", "minecraft:location")
+criteria.setDimID(-1)

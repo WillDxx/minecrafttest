@@ -1,0 +1,15 @@
+setIcon(<minecraft:nether_star>)
+setTitle("WiThErOwA FaRmA rObI bRrRrRr")
+setDescription("Zrób witherową farmę i zcraftuj dużo nether starowych bloków")
+setFrameType("challenge")
+addParent("triumph:mistrzownia/wither")
+setPos(-532,-90)
+hideLines()
+criteria = addCriteria("gwiazdy", "triumph:player_crafted_item")
+criteria.setItem(<ore:blockNetherStar>)
+criteria.setCount(10)
+
+
+
+
+setHidden(true)

@@ -1,0 +1,8 @@
+setIcon(<thermaldynamics:duct_32:1>)
+setTitle("Itemduct")
+setDescription("Zcraftuj Itemduct")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-505,26)
+hideLines()
+criteria = addCriteria("itemduct", "triumph:player_crafted_item")
+criteria.setItem(<thermaldynamics:duct_32:1>)

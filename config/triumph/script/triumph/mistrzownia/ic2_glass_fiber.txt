@@ -1,0 +1,8 @@
+setIcon(<ic2:cable:0>)
+setTitle("Copper Cable IC2")
+setDescription("Zcraftuj Copper Cable IC2")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-532,-1)
+hideLines()
+criteria = addCriteria("copercable", "triumph:player_crafted_item")
+criteria.setItem(<ic2:cable:0>)

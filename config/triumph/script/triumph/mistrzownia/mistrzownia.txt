@@ -1,0 +1,8 @@
+setIcon(<minecraft:cake>)
+setTitle("Mistrzownia MC")
+setDescription("Witaj!")
+setBackground("minecraft:textures/gui/advancements/backgrounds/stone.png")
+setShowToast(false)
+setAnnounceToChat(false)
+setPos(-342,-56)
+addCriteria("Location", "minecraft:location")

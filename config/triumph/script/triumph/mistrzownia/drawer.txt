@@ -1,0 +1,8 @@
+setIcon(<storagedrawers:basicdrawers>)
+setTitle("Storage Drawers")
+setDescription("Zcraftuj Drawer")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-372,-21)
+hideLines(false)
+criteria = addCriteria("drawers", "minecraft:inventory_changed")
+criteria.addItem(<storagedrawers:basicdrawers>)

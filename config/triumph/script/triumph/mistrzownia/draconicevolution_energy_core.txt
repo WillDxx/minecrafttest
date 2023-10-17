@@ -1,0 +1,8 @@
+setIcon(<draconicevolution:energy_storage_core>)
+setTitle("Energy Core")
+setDescription("Zcraftuj i postaw Energy Core")
+addParent("triumph:mistrzownia/draconicevolution_awakened_draconium")
+setPos(-231,96)
+hideLines(false)
+criteria = addCriteria("Energy Core", "minecraft:placed_block")
+criteria.setBlock(<draconicevolution:energy_storage_core>)

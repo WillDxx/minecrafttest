@@ -1,0 +1,8 @@
+setIcon(<tconstruct:smeltery_controller>)
+setTitle("Wielki Piec!")
+setDescription("Zcraftuj Smeltery Controller")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-285,9)
+hideLines(false)
+criteria = addCriteria("z_craftuj_piec", "triumph:player_crafted_item")
+criteria.setItem(<tconstruct:smeltery_controller>)

@@ -1,0 +1,8 @@
+setIcon(<thermaldynamics:duct_16:3>)
+setTitle("Fluiduct")
+setDescription("Zcraftuj Hardened Fluiduct")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-532,53)
+hideLines()
+criteria = addCriteria("fluiduct", "triumph:player_crafted_item")
+criteria.setItem(<thermaldynamics:duct_16:3>)

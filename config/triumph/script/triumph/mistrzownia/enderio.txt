@@ -1,0 +1,8 @@
+setIcon(<enderio:item_material>)
+setTitle("EnderIO")
+setDescription("Zdobądź Simple Machine Chassis")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-285,-88)
+hideLines(false)
+criteria = addCriteria("machine chassis", "triumph:player_crafted_item")
+criteria.setItem(<enderio:item_material>)

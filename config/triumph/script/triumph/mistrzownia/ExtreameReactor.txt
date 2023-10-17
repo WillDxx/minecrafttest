@@ -1,0 +1,8 @@
+setIcon(<bigreactors:reactorcontroller>)
+setTitle("Extreame Reactors")
+setDescription("Stwórz Reactor z modem Extreame Reactors")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-451,-1)
+hideLines()
+criteria = addCriteria("extreame_reactor", "minecraft:placed_block")
+criteria.setBlock(<bigreactors:reactorcontroller>)

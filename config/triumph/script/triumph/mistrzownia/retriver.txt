@@ -1,0 +1,8 @@
+setIcon(<thermaldynamics:retriever>)
+setTitle("Retriever")
+setDescription("Zcraftuj Retriever")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-559,53)
+hideLines()
+criteria = addCriteria("retriever", "triumph:player_crafted_item")
+criteria.setItem(<thermaldynamics:retriever>)

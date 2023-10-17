@@ -1,0 +1,8 @@
+setIcon(<draconicevolution:draconium_ingot>)
+setTitle("Draconic Evolution")
+setDescription("Zdobądź trochę draconium")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-285,67)
+hideLines(false)
+criteria = addCriteria("drAconium", "minecraft:inventory_changed")
+criteria.addItem(<draconicevolution:draconium_ingot>)

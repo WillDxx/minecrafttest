@@ -1,0 +1,8 @@
+setIcon(<draconicevolution:draconic_block>)
+setTitle("Draconic Evolution - Awakened Draconium")
+setDescription("Użyj fusion crafting core do zrobienia Awakened Draconium")
+addParent("triumph:mistrzownia/draconicevolution_fusion")
+setPos(-231,67)
+hideLines(false)
+criteria = addCriteria("Awakened_draconium_block", "minecraft:inventory_changed")
+criteria.addItem(<draconicevolution:draconic_block>)

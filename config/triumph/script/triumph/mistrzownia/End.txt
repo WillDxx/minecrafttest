@@ -1,0 +1,8 @@
+setIcon(<minecraft:end_stone>)
+setTitle("The End")
+setDescription("Wejdź do Endu")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-258,-117)
+hideLines()
+criteria = addCriteria("end", "minecraft:location")
+criteria.setDimID(1)

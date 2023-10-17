@@ -1,0 +1,8 @@
+setIcon(<mekanism:basicblock:8>)
+setTitle("Mekanism")
+setDescription("Zdobądź Steel Casing")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-285,38)
+hideLines(false)
+criteria = addCriteria("Steel_casing)", "triumph:player_crafted_item")
+criteria.setItem(<mekanism:basicblock:8>)

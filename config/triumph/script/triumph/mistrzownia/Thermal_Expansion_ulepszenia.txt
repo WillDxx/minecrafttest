@@ -1,0 +1,18 @@
+setIcon(<thermalfoundation:upgrade>)
+setTitle("Thermal expansion - ulepszenia")
+setDescription("Zrób wszystkie ulepszenia: Hardened, Reinforced, Signalum oraz Resonant")
+addParent("triumph:mistrzownia/Thermal_Expansion_maszyny")
+setPos(-231,-56)
+hideLines(false)
+criteria = addCriteria("Hardened", "minecraft:inventory_changed")
+criteria.addItem(<thermalfoundation:upgrade>)
+criteria = addCriteria("Signalum", "minecraft:inventory_changed")
+criteria.addItem(<thermalfoundation:upgrade:2>)
+criteria = addCriteria("Resonant", "minecraft:inventory_changed")
+criteria.addItem(<thermalfoundation:upgrade:3>)
+criteria = addCriteria("Reinforced", "minecraft:inventory_changed")
+criteria.addItem(<thermalfoundation:upgrade:1>)
+
+
+
+

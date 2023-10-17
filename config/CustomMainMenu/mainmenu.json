@@ -1,0 +1,271 @@
+{
+    "images":
+    {
+	
+		"black":
+        {
+            "image" : "mainmenu:textures/bg_menu.png",
+            "posX" : 99,
+            "posY" : 0,
+            "width" : 155,
+            "height" : 800,
+            "alignment" : "top_left"
+        },
+		"madcock":
+		{
+            "image" : "mainmenu:background/mad.png",
+            "posX" : -150,
+            "posY" : -42,
+            "width" : 150,
+            "height" : 27,
+			"alignment" : "bottom_right"
+        },
+		"main":
+		{
+            "image" : "mainmenu:background/main.png",
+            "posX" : -195,
+            "posY" : -25,
+            "width" : 195,
+            "height" : 27,
+			"alignment" : "bottom_right"
+        },
+		"logo":
+        {
+            "image" : "mainmenu:textures/logo.png",
+            "posX" : 0,
+            "posY" : 0,
+            "width" : 220,
+            "height" : 100,
+            "alignment" : "top_left"
+        }
+	
+	},
+    
+    "buttons":
+    {     
+		"singleplayer":
+        {
+            "text" : "Singleplayer",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 100,
+            "posY" : -40,
+            "width" : 153,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },		
+
+		"multiplayer":
+        {
+            "text" : "Multiplayer",			
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 100,
+            "posY" : -20,
+            "width" : 153,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+               
+		"options":
+        {
+            "text" : "Options",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 100,
+            "posY" : 10,
+            "width" : 153,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+		        
+		"language":
+        {
+            "text" : "Language",
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 100,
+            "posY" : 30,
+            "width" : 153,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,			
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+		
+		"refresh":
+        {
+            "text" : "",
+            "posX" : -25,
+            "posY" : 5,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth":200,
+			"imageHeight":200,
+            "alignment" : "top_right",
+			"texture" : "mainmenu:textures/refresh.png",
+			"action" :
+            {
+                "type" : "refresh"
+            }
+        },
+                    
+        "quit":
+        {
+            "text" : "Quit",
+			"normalTextColor" : 16729156,
+			"hoverTextColor" : 14483456,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 100,
+            "posY" : 50,
+            "width" : 153,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+			"hoverText" : "No! Don't leave! :(",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+		
+        "mods":
+        {
+            "text" : "Mods (#modsactive#/#modsloaded#)",
+			"normalTextColor" : 4444226,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 100,
+            "posY" : 80,
+            "width" : 153,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        }
+	},
+    
+    "labels":
+    {
+		"packTxt":
+        {
+            "text" : "DNS Techpack MistrzowniaMC",
+            "posX" : 110,
+            "posY" : -10,
+            "color" : 2007070,
+            "alignment" : "bottom_left",
+			"action" : 
+            {
+                "type" : "openLink",
+					"link" : "http://forum.mistrzownia.pl"
+            }
+        }
+    },
+    
+	
+	"alignments":
+    {
+        "c1":
+        {
+            "factorWidth" : 0.5,
+            "factorHeight" : 0.7
+        },
+ 
+        "c2":
+        {
+            "factorWidth" : 0.2,
+            "factorHeight" : 0.2
+        }
+    },
+	
+    "other":
+    {
+		"background":
+        {
+            "image" : "",
+			"slideshow":
+            {
+                "images" : [
+				"mainmenu:background/1.png",
+				"mainmenu:background/2.png",
+				"mainmenu:background/3.png",
+				"mainmenu:background/4.png",
+				"mainmenu:background/5.png",
+				"mainmenu:background/6.png",
+				"mainmenu:background/7.png",
+				"mainmenu:background/8.png",
+				"mainmenu:background/9.png",
+				"mainmenu:background/10.png",
+				"mainmenu:background/11.png",
+				"mainmenu:background/12.png",
+				"mainmenu:background/13.png",
+				"mainmenu:background/14.png",
+				"mainmenu:background/15.png",
+				"mainmenu:background/16.png",
+				"mainmenu:background/17.png",
+				"mainmenu:background/18.png",
+				"mainmenu:background/19.png",
+				"mainmenu:background/20.png",
+				"mainmenu:background/21.png",
+				"mainmenu:background/22.png",
+				"mainmenu:background/23.png",
+				"mainmenu:background/24.png",
+				"mainmenu:background/25.png",
+				"mainmenu:background/26.png",
+				"mainmenu:background/27.png",
+				"mainmenu:background/28.png",
+				"mainmenu:background/29.png",
+				"mainmenu:background/30.png",
+				"mainmenu:background/31.png",
+				"mainmenu:background/32.png",
+				"mainmenu:background/33.png",
+				"mainmenu:background/34.png",
+				"mainmenu:background/35.png",
+				"mainmenu:background/36.png",
+				"mainmenu:background/37.png",
+				"mainmenu:background/38.png",
+				"mainmenu:background/39.png",
+				"mainmenu:background/40.png",
+				"mainmenu:background/41.png",
+				"mainmenu:background/42.png"
+				],
+                "displayDuration" : 60,
+                "fadeDuration" : 10
+            }
+        }
+    }
+}

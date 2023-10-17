@@ -1,0 +1,8 @@
+setIcon(<enderio:block_cap_bank:1>)
+setTitle("Banki Energii")
+setDescription("Zcraftuj Basic Capacitor Bank z EnderIO")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-424,26)
+hideLines()
+criteria = addCriteria("enderio_bank", "triumph:player_crafted_item")
+criteria.setItem(<enderio:block_cap_bank>)

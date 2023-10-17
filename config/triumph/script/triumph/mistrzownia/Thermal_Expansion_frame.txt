@@ -1,0 +1,8 @@
+setIcon(<thermalexpansion:frame>)
+setTitle("Thermal Expansion")
+setDescription("Zdobądź Machine Frame z Thermal Expansion")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-285,-56)
+hideLines(false)
+criteria = addCriteria("thermal_frame", "triumph:player_crafted_item")
+criteria.setItem(<thermalexpansion:frame>)

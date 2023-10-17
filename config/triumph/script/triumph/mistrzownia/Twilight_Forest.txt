@@ -1,0 +1,8 @@
+setIcon(<minecraft:red_flower>)
+setTitle("Twilight Forest")
+setDescription("Wejdź do Twilight Forest")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-231,-117)
+hideLines()
+criteria = addCriteria("twilight_forest", "minecraft:location")
+criteria.setDimID(7)

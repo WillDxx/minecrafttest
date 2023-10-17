@@ -1,0 +1,8 @@
+setIcon(<thermaldynamics:servo>)
+setTitle("Servo")
+setDescription("Zcraftuj Servo")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-505,53)
+hideLines()
+criteria = addCriteria("servo", "triumph:player_crafted_item")
+criteria.setItem(<thermaldynamics:servo>)

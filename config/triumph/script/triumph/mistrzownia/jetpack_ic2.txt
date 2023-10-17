@@ -1,0 +1,8 @@
+setIcon(<ic2:jetpack_electric>)
+setTitle("Jetpack!")
+setDescription("Zcraftuj Jetpack z IC2")
+addParent("triumph:mistrzownia/ic2")
+setPos(-451,26)
+hideLines()
+criteria = addCriteria("jetpack ic2", "triumph:player_crafted_item")
+criteria.setItem(<ic2:jetpack_electric>)

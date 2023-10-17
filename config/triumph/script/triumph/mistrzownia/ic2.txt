@@ -1,0 +1,8 @@
+setIcon(<ic2:resource:12>)
+setTitle("Industrial Craft")
+setDescription("Zdobądź Basic Machine Frame")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-285,-21)
+hideLines(false)
+criteria = addCriteria("generator", "triumph:player_crafted_item")
+criteria.setItem(<ic2:resource:12>)

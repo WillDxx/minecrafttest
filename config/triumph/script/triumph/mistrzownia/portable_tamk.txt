@@ -1,0 +1,8 @@
+setIcon(<thermalexpansion:tank>)
+setTitle("Portable Tank")
+setDescription("Zcraftuj Portable Tank")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-559,26)
+hideLines()
+criteria = addCriteria("tank_portable", "triumph:player_crafted_item")
+criteria.setItem(<thermalexpansion:tank>)

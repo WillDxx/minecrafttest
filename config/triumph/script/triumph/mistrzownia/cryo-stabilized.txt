@@ -1,0 +1,8 @@
+setIcon(<thermaldynamics:duct_0:5>)
+setTitle("Cryo-Stabilized Fluxduct")
+setDescription("Zcraftuj Cryo-Stabilized Fluxduct")
+addParent("triumph:mistrzownia/mistrzownia")
+setPos(-532,26)
+hideLines()
+criteria = addCriteria("flux_duct", "minecraft:inventory_changed")
+criteria.addItem(<thermaldynamics:duct_0:5>)

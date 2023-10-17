@@ -1,0 +1,64 @@
+{
+  "entries": [
+    {
+      "item": "anima:anima_shard|0",
+      "emc": 64
+    },
+    {
+      "item": "enderio:item_alloy_ingot|8",
+      "emc": 417
+    },
+    {
+      "item": "enderio:item_alloy_ingot|9",
+      "emc": 512
+    },
+    {
+      "item": "enderio:item_alloy_endergy_ingot|0",
+      "emc": 21
+    },
+    {
+      "item": "enderio:item_alloy_endergy_ingot|2",
+      "emc": 609
+    },
+    {
+      "item": "enderio:item_material|36",
+      "emc": 9328
+    },
+    {
+      "item": "enderio:item_alloy_endergy_ingot|1",
+      "emc": 11376
+    },
+    {
+      "item": "industrialforegoing:pink_slime_ingot|0",
+      "emc": 4352
+    },
+    {
+      "item": "enderio:item_alloy_endergy_ingot|4",
+      "emc": 13680
+    },
+    {
+      "item": "enderio:item_alloy_endergy_ingot|3",
+      "emc": 69968
+    },
+    {
+      "item": "enderio:item_alloy_endergy_ingot|5",
+      "emc": 960
+    },
+    {
+      "item": "enderio:item_material|35",
+      "emc": 19512
+    },
+    {
+      "item": "usefuldns:sexmb|0",
+      "emc": 6561000000
+    },
+    {
+      "item": "usefuldns:sepmb|0",
+      "emc": 164025000000
+    },
+    {
+      "item": "usefuldns:octuplemb|0",
+      "emc": 4100625000000
+    }
+  ]
+}

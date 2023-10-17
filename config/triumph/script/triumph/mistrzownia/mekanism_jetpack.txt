@@ -1,0 +1,8 @@
+setIcon(<mekanism:jetpack>)
+setTitle("Jetpack!")
+setDescription("Zcraftuj Jetpack z Mekanismu")
+addParent("triumph:mistrzownia/mekanism")
+setPos(-424,-1)
+hideLines()
+criteria = addCriteria("jetpack mekanism", "triumph:player_crafted_item")
+criteria.setItem(<mekanism:jetpack>)
