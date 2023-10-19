@@ -23,7 +23,7 @@
       "count": 64
     }
   ],
-  "energy": 640000.0,
+  "energy": 64000.0,
   "showInJEI": true,
   "result": {
     "item": "quarryplus:torch_module",

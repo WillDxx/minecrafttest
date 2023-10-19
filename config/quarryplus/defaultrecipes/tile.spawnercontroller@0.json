@@ -63,7 +63,7 @@
       "count": 4
     }
   ],
-  "energy": 1000000.0,
+  "energy": 100000.0,
   "showInJEI": true,
   "result": {
     "item": "quarryplus:spawnercontroller",

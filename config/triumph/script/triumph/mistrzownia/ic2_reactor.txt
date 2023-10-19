@@ -1,16 +1,16 @@
-setIcon(<ic2:te:24>)
+setIcon(<ic2:blockgenerator:5>)
 setTitle("Robimy Reactor")
 setDescription("Zcraftuj części do reaktora")
 addParent("triumph:mistrzownia/ic2_maszyny")
 setPos(-231,-21)
 hideLines(false)
 criteria = addCriteria("Reactor", "triumph:player_crafted_item")
-criteria.setItem(<ic2:te:22>)
+criteria.setItem(<ic2:blockgenerator:5>)
 
 criteria = addCriteria("Reactor Chamber", "triumph:player_crafted_item")
-criteria.setItem(<ic2:te:24>)
+criteria.setItem(<ic2:blockchambers:0>)
 criteria.setCount(9)
 
 criteria = addCriteria("Paliwo do reaktora", "minecraft:inventory_changed")
-criteria.addItem(<ic2:uranium_fuel_rod>)
+criteria.addItem(<ic2:itemreactorrods:0>)
 
